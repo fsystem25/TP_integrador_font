@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    /*Para ocultar la barra de desplazamiento*/
+    display: none; 
+}
+
+.carousel-item > img{
+    /* pacamos las imagenes del carousel */
+    filter: brightness(30%) !important;
+}
+
+u.dotted{
+    /*Para subrayar textos con puntos*/
+    border-bottom: 1px dashed #999;
+    text-decoration: none; 
+}
+
+#footer_ul{
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(30,83,114,1) 100%);
+}
+
+#footer_ul > li > a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+    width:8rem;
+    color: white;
+}
+
+#form_oradores{
+    max-height: 30vh; 
+    min-height: 3rem; 
+    font-size: large;
+}
+
+
+@media (min-width:72px)  {
+
+}
