@@ -6,7 +6,6 @@
 
 .carousel-item > img{
     filter: brightness(50%);
-    width: 100vw;
     height: 80vh;
 }
 
