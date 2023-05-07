@@ -3,16 +3,19 @@
     display: none; 
 }
 
+
 .carousel-item > img{
-    /* pacamos las imagenes del carousel */
-    filter: brightness(30%) !important;
+    filter: brightness(50%);
+    height: 80vh;
 }
+
 
 u.dotted{
     /*Para subrayar textos con puntos*/
     border-bottom: 1px dashed #999;
     text-decoration: none; 
 }
+
 
 #footer_ul{
     background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(30,83,114,1) 100%);
@@ -38,4 +41,15 @@ u.dotted{
     #footer_ul{
         gap:2rem;
     }
+
+    .carousel-item > img{
+        height: auto;
+        max-height: 100vh;
+        width: 100vw;
+    }
+
+    .slide_caption{
+        padding-bottom: 7%;
+    }
+    
 }
