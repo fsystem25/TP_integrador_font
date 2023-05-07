@@ -3,10 +3,12 @@
     display: none; 
 }
 
+
 .carousel-item > img{
-    /* pacamos las imagenes del carousel */
-    filter: brightness(30%) !important;
+    filter: brightness(50%);
+    height: 80vh;
 }
+
 
 u.dotted{
     /*Para subrayar textos con puntos*/
@@ -37,5 +39,11 @@ u.dotted{
 @media (min-width:768px)  {
     #footer_ul{
         gap:2rem;
+    }
+
+    .carousel-item > img{
+        height: auto;
+        max-height: 100vh;
+        width: 100vw;
     }
 }
