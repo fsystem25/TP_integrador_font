@@ -34,6 +34,8 @@ u.dotted{
 }
 
 
-@media (min-width:72px)  {
-
+@media (min-width:768px)  {
+    #footer_ul{
+        gap:2rem;
+    }
 }
